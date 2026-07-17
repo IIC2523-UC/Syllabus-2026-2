@@ -1,0 +1,24 @@
+body:
+- type: checkboxes
+  id: rules
+  attributes:
+    label: Antes de hacer una discussion....
+    options:
+      - label: Revisé que no existiera otra _discussion_ con esta consulta.
+      - label: No estoy compartiendo la solución de una evaluación.
+      - label: Una vez me respondan, si dicha respuesta soluciona mi duda, voy a oprimir en `"Mark as answer"`.
+      - label: Si tengo varias dudas distintas, haré diferentes _discussion_.
+  validations:
+    required: true
+
+- type: textarea
+  id: duda
+  attributes:
+    label: Detalle de la consulta
+    description: "Escriba aquí el detalle de su consulta"
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: "Gracias por hacer esta consulta, la responderemos lo antes posible dentro del horario laboral 😁"

@@ -1,4 +1,4 @@
-from sys import argv
+import sys
 from typing import Any
 from flask import Flask, jsonify, request
 
@@ -11,7 +11,6 @@ class RegistroNotas:
     def crear_evaluacion(self, evaluacion: str) -> None:
         if evaluacion not in self.evaluaciones:
             self.evaluaciones.append(evaluacion)
-        return None
 
     def registrar_nota(self, evaluacion: str, alumno: str, nota: float) -> int:
         if evaluacion not in self.evaluaciones:
@@ -89,8 +88,6 @@ registro = RegistroNotas()
 def crear_evaluacion() -> Any:
     data = request.get_json(force=True)
     evaluacion = data.get("evaluacion")
-    if not evaluacion:
-        return jsonify({"error": "Falta 'evaluacion'"}), 400
 
     retorno = registro.crear_evaluacion(evaluacion)
     return jsonify(retorno)
@@ -102,15 +99,7 @@ def registrar_nota() -> Any:
     evaluacion = data.get("evaluacion")
     alumno = data.get("alumno")
     nota = data.get("nota")
-
-    if not evaluacion or not alumno or nota is None:
-        return jsonify({"error": "Faltan campos requeridos"}), 400
-
-    try:
-        cantidad = registro.registrar_nota(evaluacion, alumno, nota)
-    except ValueError as error:
-        return jsonify({"error": str(error)}), 400
-
+    cantidad = registro.registrar_nota(evaluacion, alumno, nota)
     return jsonify(cantidad)
 
 
@@ -118,10 +107,6 @@ def registrar_nota() -> Any:
 def obtener_nota() -> Any:
     alumno = request.args.get("alumno")
     evaluacion = request.args.get("evaluacion")
-
-    if not alumno or not evaluacion:
-        return jsonify({"error": "Faltan parametros"}), 400
-
     return jsonify(registro.obtener_nota(alumno, evaluacion))
 
 
@@ -141,9 +126,9 @@ def stats(evaluacion: str) -> Any:
 
 
 if __name__ == "__main__":
-    if len(argv) != 2 or not argv[1].isdigit():
+    if len(sys.argv) != 2 or not sys.argv[1].isdigit():
         print("Uso: python3 servidor.py <puerto>")
-        exit(1)
+        sys.exit(1)
 
-    puerto = int(argv[1])
+    puerto = int(sys.argv[1])
     app.run(host="127.0.0.1", port=puerto, debug=True)

@@ -1,4 +1,4 @@
-from sys import argv
+import sys
 from typing import Any
 import requests
 
@@ -101,11 +101,11 @@ def demo(port: int) -> None:
 
 
 if __name__ == "__main__":
-    if len(argv) != 2 or not argv[1].isdigit():
+    if len(sys.argv) != 2 or not sys.argv[1].isdigit():
         print("Uso: python3 cliente.py <puerto>")
-        exit(1)
+        sys.exit(1)
 
-    puerto = int(argv[1])
+    puerto = int(sys.argv[1])
 
     try:
         demo(puerto)

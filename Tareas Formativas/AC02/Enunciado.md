@@ -1,4 +1,4 @@
-# AC01 - De API Flask a RPC
+# AC02 - De API Flask a RPC
 
 ## Objetivo
 En esta actividad vas a tomar una API HTTP escrita con Flask y la vas a transformar a una arquitectura RPC.

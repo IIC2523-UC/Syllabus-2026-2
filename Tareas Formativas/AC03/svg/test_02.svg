@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1620' height='580' viewBox='0 0 1620 580'>
+<rect x='0' y='0' width='1620' height='580' fill='#ffffff'/>
+<defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='7' refY='3' orient='auto' markerUnits='strokeWidth'><path d='M0,0 L0,6 L8,3 z' fill='#7b6a52'/></marker></defs>
+<g opacity='0.95'><line x1='180.0' y1='58' x2='180.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='180.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T1</text></g>
+<g opacity='0.95'><line x1='360.0' y1='58' x2='360.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='360.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T2</text></g>
+<g opacity='0.95'><line x1='540.0' y1='58' x2='540.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='540.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T3</text></g>
+<g opacity='0.95'><line x1='720.0' y1='58' x2='720.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='720.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T4</text></g>
+<g opacity='0.95'><line x1='900.0' y1='58' x2='900.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='900.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T5</text></g>
+<g opacity='0.95'><line x1='1080.0' y1='58' x2='1080.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='1080.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T6</text></g>
+<g opacity='0.95'><line x1='1260.0' y1='58' x2='1260.0' y2='72' stroke='#5d5548' stroke-width='2'/><text x='1260.0' y='48' text-anchor='middle' font-size='14' font-family='Arial, sans-serif' font-weight='700' fill='#5d5548'>T7</text></g>
+<line x1='120' y1='80' x2='1590' y2='80' stroke='#7b6a52' stroke-width='3'/>
+<text x='20.0' y='90.0' text-anchor='start' font-size='44' font-family='Arial, sans-serif' font-weight='400' fill='#333333'>N1</text>
+<polygon points='1590,74 1590,86 1602,80' fill='#7b6a52'/>
+<line x1='120' y1='220' x2='1590' y2='220' stroke='#7b6a52' stroke-width='3'/>
+<text x='20.0' y='230.0' text-anchor='start' font-size='44' font-family='Arial, sans-serif' font-weight='400' fill='#333333'>N2</text>
+<polygon points='1590,214 1590,226 1602,220' fill='#7b6a52'/>
+<line x1='120' y1='360' x2='1590' y2='360' stroke='#7b6a52' stroke-width='3'/>
+<text x='20.0' y='370.0' text-anchor='start' font-size='44' font-family='Arial, sans-serif' font-weight='400' fill='#333333'>N3</text>
+<polygon points='1590,354 1590,366 1602,360' fill='#7b6a52'/>
+<path d='M 555.8,92.3 Q 630.0,186.0 704.2,207.7' fill='none' stroke='#7b6a52' stroke-width='2.5' marker-end='url(#arrow)' opacity='0.95'/>
+<path d='M 915.8,232.3 Q 990.0,326.0 1064.2,347.7' fill='none' stroke='#7b6a52' stroke-width='2.5' marker-end='url(#arrow)' opacity='0.95'/>
+<circle cx='180' cy='80' r='18' fill='#f57c00' stroke='#f57c00' stroke-width='2'/>
+<text x='180.0' y='86.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>A</text>
+<circle cx='360' cy='220' r='18' fill='#f57c00' stroke='#f57c00' stroke-width='2'/>
+<text x='360.0' y='226.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>B</text>
+<circle cx='540' cy='80' r='18' fill='#f57c00' stroke='#f57c00' stroke-width='2'/>
+<text x='540.0' y='86.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>C</text>
+<circle cx='720' cy='220' r='18' fill='#eaf4e5' stroke='#f57c00' stroke-width='3'/>
+<text x='720.0' y='226.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>D</text>
+<circle cx='900' cy='220' r='18' fill='#f57c00' stroke='#f57c00' stroke-width='2'/>
+<text x='900.0' y='226.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>E</text>
+<circle cx='1080' cy='360' r='18' fill='#eaf4e5' stroke='#f57c00' stroke-width='3'/>
+<text x='1080.0' y='366.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>F</text>
+<circle cx='1260' cy='360' r='18' fill='#f57c00' stroke='#f57c00' stroke-width='2'/>
+<text x='1260.0' y='366.0' text-anchor='middle' font-size='18' font-family='Arial, sans-serif' font-weight='700' fill='#333333'>G</text>
+</svg>

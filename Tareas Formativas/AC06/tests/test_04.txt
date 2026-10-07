@@ -1,0 +1,9 @@
+R1,R2
+A,B
+R1;A;W;X;0;1
+R1;B;W;Y;0;1
+R2;A;R;X;1
+R2;B;R;Y;1
+R1;A;R;X;1
+R2;B;W;Y;1;2
+R1;B;R;Y;1

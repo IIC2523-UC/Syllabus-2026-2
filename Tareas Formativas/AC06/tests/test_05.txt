@@ -1,0 +1,14 @@
+R1,R2
+A,B,C
+R1;C;W;X;0;1
+R1;A;R;X;1
+R2;A;W;X;0;2
+R1;B;W;X;1;3
+R1;B;R;X;3
+R2;B;R;X;2
+R2;A;R;X;2
+R1;B;R;X;2
+R2;A;W;X;2;4
+R1;A;R;X;4
+R2;A;R;X;4
+R1;B;R;X;4
